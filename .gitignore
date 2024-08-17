@@ -1,0 +1,11 @@
+.idea
+.vs
+
+/**/bin/
+/**/obj/
+*.vspscc
+*.ncrunchsolution.*
+global.json
+/BuildArtifacts/
+/DevOps/
+
