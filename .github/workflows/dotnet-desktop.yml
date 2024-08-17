@@ -76,7 +76,7 @@ jobs:
 
     # Execute all unit tests in the solution
     - name: unit tests
-      run: dotnet test   --configuration Debug --no-build --no-restore  --logger "console;verbosity=normal" -- xUnit.ReporterSwitch=teamcity
+      run: dotnet test   --configuration Debug   --logger "console;verbosity=normal" -- xUnit.ReporterSwitch=teamcity
 
    
 
